@@ -28,7 +28,7 @@ for (int i = 0; i < m; i++)
 }
 /*
  * 
- * добавил часть текста к удалению для проверки заливки в ветку slave на github
+ * удалил
 for (int i = 0; i < m; i++)
 {
     bool growDirection = i % 2 == 0;
