@@ -27,6 +27,8 @@ for (int i = 0; i < m; i++)
     Console.WriteLine();
 }
 /*
+ * 
+ * добавил часть текста к удалению для проверки заливки в ветку slave на github
 for (int i = 0; i < m; i++)
 {
     bool growDirection = i % 2 == 0;
