@@ -17,15 +17,7 @@ for (int i = 0; i < m; i++)
     }
 }
 
-for (int i = 0; i < m; i++)
-{
-    for (int j = 0; j < n; j++)
-    {
-        Console.Write(array[i, j]);
-        Console.Write(" ");
-    }
-    Console.WriteLine();
-}
+
 /*
 for (int i = 0; i < m; i++)
 {
