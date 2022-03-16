@@ -4,13 +4,11 @@ int[,] array = new int[m, n];
 
 for (int i = 0; i < m; i++)
 {
-    var multiplierVert = (int)Math.Round(i / n, digits: 0);
 
     for (int j = 0; j < n; j++)
     {
-        var multiplierHor = (int)Math.Round(j / m, digits: 0);
 
-        if (i - n * multiplierVert == j - m * multiplierHor)
+        if (i - n  == j - m )
         {
             array[i, j] = 1;
         }
