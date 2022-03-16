@@ -1,0 +1,15 @@
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\bin\Debug\net6.0\RussianRouletteConsole.exe
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\bin\Debug\net6.0\RussianRouletteConsole.deps.json
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\bin\Debug\net6.0\RussianRouletteConsole.runtimeconfig.json
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\bin\Debug\net6.0\RussianRouletteConsole.dll
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\bin\Debug\net6.0\RussianRouletteConsole.pdb
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\RussianRouletteConsole.csproj.AssemblyReference.cache
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\RussianRouletteConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\RussianRouletteConsole.AssemblyInfoInputs.cache
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\RussianRouletteConsole.AssemblyInfo.cs
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\RussianRouletteConsole.csproj.CoreCompileInputs.cache
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\RussianRouletteConsole.dll
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\refint\RussianRouletteConsole.dll
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\RussianRouletteConsole.pdb
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\RussianRouletteConsole.genruntimeconfig.cache
+C:\Users\alber\source\repos\RussianRouletteConsole\RussianRouletteConsole\obj\Debug\net6.0\ref\RussianRouletteConsole.dll
