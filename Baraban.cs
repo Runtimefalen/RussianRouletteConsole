@@ -1,4 +1,4 @@
-﻿namespace RussionRullet
+﻿namespace RussianRullet
 {
     public class Baraban
     {
@@ -20,6 +20,14 @@
             }
 
             _current.Next = _head;
+        }
+
+        public void Rotate(int count)
+        {
+            for (int i = 0; i < count; i++)
+            {
+                _current.Next;
+            }
         }
 
         public Chamber Current => _current;
