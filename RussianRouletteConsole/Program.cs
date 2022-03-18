@@ -5,28 +5,38 @@ namespace RussianRoulette
     {
         static void Main()
         {
-            string[] args = { "Alfred", "Nicolas", "Jimmy", "Sammuel", "Richard" };
-            
+            var players = new List<string> { "Alfred", "Nicolas", "Jimmy", "Sammuel", "Richard" };
             var gun = new Gun();
-            gun.ReloadIfEmpty();
-            for (int i = 0; i < args.Length; i++)
+            int roundNumber = 1;
+            
+            Console.WriteLine("Game players {0}",string.Join(", ", players));
+            while (players.Count > 1)
             {
-                if (gun.Fire() == false)
+                Console.WriteLine("GAME {0} is started", roundNumber++);
+                gun.ReloadIfEmpty();
+                for (int i = 0; i < players.Count; i++)
                 {
-                    Console.WriteLine("Clatz");
+                    string selectedPlayer = players[i];
+                    if (gun.Fire())
+                    {
+                        Console.WriteLine("Player {0} was KILLED now!!!", selectedPlayer);
+                        players.Remove(selectedPlayer);
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("{0} tz", selectedPlayer);
+                    }
                 }
-                else
+                if (players.Count>1)
                 {
-                    Console.WriteLine("Player {0} was killed now!!!", args[i]);
-                    Console.ReadLine();
-                    string killedPlayer = args[i];
-                    
+                Console.Write("Go to the {0} game: {1}", roundNumber, string.Join(", ", players));
                 }
+                Console.WriteLine();
+                Console.ReadLine();
             }
-
-            
-                
-            
+            Console.Write("Winner of the game {0}!!!", players[0]);
+            Console.ReadLine();
         }
     }
 }
