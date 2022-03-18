@@ -21,13 +21,13 @@ public class Gun
 		_baraban.LoadBarabanChamber(chamberIndex);
 	}
 
-	public void LoadGunWithFullBaraban()
-    {
-        for (int i = 0; i < Baraban.BulletsCount - 1; i++)
-        {
-			_baraban.LoadBarabanChamber(i);
-		}
-	}
+	//public void LoadGunWithFullBaraban()
+ //   {
+ //       for (int i = 0; i < Baraban.BulletsCount - 1; i++)
+ //       {
+	//		_baraban.LoadBarabanChamber(i);
+	//	}
+	//}
 
 	public void ReloadIfEmpty()
     {

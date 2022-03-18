@@ -6,18 +6,27 @@ namespace RussianRoulette
         static void Main()
         {
             string[] args = { "Alfred", "Nicolas", "Jimmy", "Sammuel", "Richard" };
-            foreach (string lucker in args)
-            {
-            }
-
+            
             var gun = new Gun();
             gun.ReloadIfEmpty();
-            while (gun.Fire() == false)
+            for (int i = 0; i < args.Length; i++)
             {
-                Console.WriteLine("Clatz");
+                if (gun.Fire() == false)
+                {
+                    Console.WriteLine("Clatz");
+                }
+                else
+                {
+                    Console.WriteLine("Player {0} was killed now!!!", args[i]);
+                    Console.ReadLine();
+                    string killedPlayer = args[i];
+                    
+                }
             }
-            Console.WriteLine("Ba-Bahhhh");
-            Console.ReadLine();
+
+            
+                
+            
         }
     }
 }
