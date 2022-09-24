@@ -7,7 +7,7 @@ namespace RussianRoulette
         {
 
             ///see this text
-            var players = new List<string> { "Alfred", "Nicolas", "Jimmy", "Sammuel", "Richard" };
+            var players = new List<string> { "Alfred", "Nicky", "JiJimmy", "Sammuel", "Richard" };
             var gun = new Gun();
             int roundNumber = 1;
             
