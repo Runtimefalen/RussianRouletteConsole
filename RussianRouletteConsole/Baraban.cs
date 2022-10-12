@@ -9,7 +9,7 @@
     public Baraban()
     {
         _head = new Chamber();
-        _current = _head;
+        _current = _head;//nothing
 
         for (int i = 1; i < BulletsCount; i++)
         {
