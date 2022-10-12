@@ -27,7 +27,7 @@ namespace RussianRoulette
                     }
                     else
                     {
-                        Console.WriteLine("{0} tz", selectedPlayer);
+                        Console.WriteLine("{0} tz", selectedPlayer);//123
                     }
                 }
                 if (players.Count>1)
