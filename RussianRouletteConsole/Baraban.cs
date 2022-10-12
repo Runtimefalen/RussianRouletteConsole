@@ -5,6 +5,7 @@
     private Chamber _head;
     private Chamber _current;
 
+    // Baraban chamber class description
     public Baraban()
     {
         _head = new Chamber();

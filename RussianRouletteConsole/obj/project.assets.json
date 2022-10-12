@@ -8,26 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Yurko\\.nuget\\packages\\": {}
+    "/Users/alba/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\YURKO\\TEST\\RussianRouletteConsole\\RussianRouletteConsole\\RussianRouletteConsole.csproj",
+      "projectUniqueName": "/Users/alba/Projects/GitHub/RussianRouletteConsole/RussianRouletteConsole/RussianRouletteConsole.csproj",
       "projectName": "RussianRouletteConsole",
-      "projectPath": "C:\\YURKO\\TEST\\RussianRouletteConsole\\RussianRouletteConsole\\RussianRouletteConsole.csproj",
-      "packagesPath": "C:\\Users\\Yurko\\.nuget\\packages\\",
-      "outputPath": "C:\\YURKO\\TEST\\RussianRouletteConsole\\RussianRouletteConsole\\obj\\",
+      "projectPath": "/Users/alba/Projects/GitHub/RussianRouletteConsole/RussianRouletteConsole/RussianRouletteConsole.csproj",
+      "packagesPath": "/Users/alba/.nuget/packages/",
+      "outputPath": "/Users/alba/Projects/GitHub/RussianRouletteConsole/RussianRouletteConsole/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Yurko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/alba/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
